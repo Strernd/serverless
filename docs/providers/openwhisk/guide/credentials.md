@@ -80,7 +80,7 @@ Organisations and spaces for your account can be viewed on this page: [https://c
 
 Accounts normally have a default organisation using the account email address. Default space name is usually `dev`.
 
-*After running the login command, authentication credentials will be stored in the `.wskprops` file under your home directory.*
+To obtain the `.wskprops` file, that is needed run the command `bx cloud-functions property get --auth`. After running that command, authentication credentials will be stored in the `.wskprops` file under your home directory.
 
 ## Register with OpenWhisk platform (Self-Hosted)
 
